@@ -21,10 +21,10 @@ def run():
 Thread(target=run).start()
 
 # Telegram credentials (from environment variables)
-api_id = int(os.environ.get('25750063'))
-api_hash = os.environ.get('c9d0b539efac21fca5a0c8ae9d6bf1cc')
-bot_token = os.environ.get('8089857633:AAGG9yJ5qR1LLk6qkFWr48LVsR9VOCQ9D-M') 
-chat_id = os.environ.get('7206931841')
+api_id = int(os.environ.get('API_ID'))
+api_hash = os.environ.get('API_HASH')
+bot_token = os.environ.get('BOT_TOKEN') 
+chat_id = os.environ.get('CHAT_ID')
 
 # Usernames to check
 usernames_to_check = [
